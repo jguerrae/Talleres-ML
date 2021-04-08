@@ -1,0 +1,8 @@
+Hola a todos. Espero que se encuentren muy bien. Adjunto envío el script que ustedes deben completar con el fin de construir un clasificador binario basado en el algoritmo de k vecinos más cercanos (kNN, por sus siglas en ingles).
+
+Las instrucciones son simples, deben ir recorriendo el script (de la línea 79 en adelante), lo primero que encontraran son dos variables:
+
+train_data: Esta variable tiene 150 datos que servirán para construir su algoritmo de kNN. Los datos se disponen en formato de diccionario donde las llaves son los vectores de características y los valores son su respectiva clasificación.
+test_data: Esta variable tiene 100.000 datos generados con el mismo proceso que train_data. Estos datos vienen dispuestos en forma de diccionario (como la variable anterior), y las llaves servirán para evaluar el desempeño del algoritmo kNN que ustedes crearán.
+ver_datos: Para ver gráficamente como se comportan los datos con los que ustedes van a crear su algoritmo (train_data) deben cambiar el valor de esta variable a TRUE, en caso de lo contrario, no se desplegara ninguna gráfica.
+De acá en adelante (línea 98) encontrar instrucciones identificadas con la palabra TODO para construir un kNN
